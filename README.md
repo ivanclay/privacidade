@@ -57,9 +57,8 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 
 ## Pendências
 
-- [ ] **Preencher o e-mail de contato** em `caderno/index.html` — está marcado como `[preencher...]`
-      na seção "Quem é o responsável". **Sem ele a política fica incompleta para a loja.**
-- [ ] Ligar o GitHub Pages (passos acima).
+- [x] ~~Preencher o e-mail de contato em `caderno/index.html`~~ · feito em 2026-09-02.
+- [x] ~~Ligar o GitHub Pages~~ · feito em 2026-09-02.
 - [ ] Conferir a página no celular antes de colar o endereço no Play Console.
 
 ## Manutenção
