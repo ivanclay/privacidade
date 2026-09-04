@@ -8,6 +8,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 |---|---|
 | Índice | `https://ivanclay.github.io/privacidade/` |
 | Caderno | `https://ivanclay.github.io/privacidade/caderno/` |
+| SAuto | `https://ivanclay.github.io/privacidade/sauto/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 
 **No Google Play Console, cada app recebe o endereço da PASTA DELE** — nunca o do índice e nunca o
@@ -67,6 +68,12 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 - [x] ~~Ligar o GitHub Pages~~ · feito em 2026-09-02.
 - [ ] Conferir a página no celular antes de colar o endereço no Play Console.
 - [ ] SMarket: conferir a data, a versão e o e-mail de contato do topo da página.
+- [ ] **SAuto: apontar o Play Console para `.../privacidade/sauto/`.** O aplicativo ainda não foi
+      submetido; a página existe porque a tela "Sobre" dentro do app precisa linkar para ela.
+- [ ] **SAuto: o app ainda não tem cópia de segurança nem assinatura.** A página já diz que as duas
+      chegam e que ela muda antes — **é essa promessa que precisa ser cumprida**, não esquecida.
+- [ ] **SAuto: falta o EULA (termos de uso).** Este repositório só tem políticas de privacidade, e a
+      tela "Sobre" do SAuto linka para os dois documentos. O segundo não existe em lugar nenhum.
 
 ## Manutenção
 

@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade — SAuto</title>
+<meta name="description" content="Política de privacidade do aplicativo SAuto. Sem conta, sem servidor e sem permissão de internet: a vida do seu veículo fica no seu aparelho.">
+<link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+<main>
+
+  <h1>Política de privacidade — SAuto</h1>
+  <p class="subtitulo">Versão 0.4.0 · atualizada em 4 de setembro de 2026</p>
+
+  <div class="destaque">
+    <p><strong>O SAuto não tem conta, não tem servidor e não tem telemetria.</strong> Os veículos,
+    os abastecimentos, os gastos, a manutenção, os documentos, os lembretes e o financiamento ficam
+    num banco de dados dentro do seu aparelho. Não há cadastro para fazer e não há nada nosso do
+    outro lado.</p>
+    <p><strong>Nesta versão, nada sai do aparelho — e isso não é uma promessa, é uma limitação do
+    sistema operacional.</strong> O aplicativo <strong>não declara a permissão de internet</strong>.
+    Sem ela, o Android não deixa o aplicativo abrir uma conexão de rede, nem que ele queira. É a
+    diferença entre <em>“nós não enviamos”</em> e <em>“ele não consegue enviar”</em>.</p>
+  </div>
+
+  <h2>Quem é o responsável</h2>
+
+  <p>O SAuto é desenvolvido e publicado por <strong>Ivan Moura</strong>, pessoa física.</p>
+
+  <p><strong>Contato:</strong>
+  <a href="mailto:ivan.clay.moura@gmail.com">ivan.clay.moura@gmail.com</a></p>
+
+  <h2>O que o aplicativo guarda</h2>
+
+  <p>Tudo fica num banco de dados na área privada do app, no seu aparelho:</p>
+
+  <table>
+    <tr><th>O quê</th><th>Para quê</th></tr>
+    <tr>
+      <td><strong>Os seus veículos</strong> — o apelido que você der, marca, modelo, placa, ano,
+      tipo de propulsão, e a leitura do hodômetro no dia do cadastro</td>
+      <td>É a base de tudo. Sem o veículo não há consumo, não há custo por quilômetro e não há
+      lembrete. <strong>Placa e ano são opcionais</strong> — o app funciona sem os dois.</td>
+    </tr>
+    <tr>
+      <td><strong>As unidades e a moeda de cada veículo</strong> — quilômetro ou milha, litro ou
+      galão, e a moeda em que você paga</td>
+      <td>São escolhas <strong>do veículo</strong>, e não do aplicativo: um importado fica em milha
+      e dólar ao lado de um nacional em quilômetro e real, cada um com a conta certa.</td>
+    </tr>
+    <tr>
+      <td><strong>Os abastecimentos</strong> — data, hodômetro, volume, valor pago, o posto e o
+      combustível, e se o tanque foi enchido</td>
+      <td>É o que sustenta o consumo. O <em>“tanque cheio”</em> é guardado junto porque só entre
+      dois tanques cheios o consumo é calculável.</td>
+    </tr>
+    <tr>
+      <td><strong>A manutenção e os gastos</strong> — o serviço feito, a peça, a oficina, a data, o
+      hodômetro e o valor</td>
+      <td>Para o histórico do veículo e para o custo por quilômetro.</td>
+    </tr>
+    <tr>
+      <td><strong>Os lembretes</strong> — por data, por quilometragem, ou os dois</td>
+      <td>Para o app avisar da revisão, do IPVA e do seguro antes de vencerem.</td>
+    </tr>
+    <tr>
+      <td><strong>O financiamento</strong>, quando você tiver um — valor, parcelas, taxa e o que já
+      foi pago</td>
+      <td>Para o app dizer quanto falta e quanto custa quitar hoje.</td>
+    </tr>
+    <tr>
+      <td><strong>Os documentos que você anexar</strong> — CRLV, apólice de seguro, notas fiscais</td>
+      <td>Para você tê-los à mão. <strong>São guardados cifrados no aparelho</strong>, porque são
+      documentos de posse: quem os tem prova quem é o dono do veículo.</td>
+    </tr>
+    <tr>
+      <td><strong>Preferências simples</strong> — como a última versão de novidades que você já leu</td>
+      <td>Para o app não repetir um aviso que você já viu.</td>
+    </tr>
+  </table>
+
+  <p>Não há cadastro, login, e-mail, telefone, identificador de publicidade nem qualquer forma de
+  perfil associada a você.</p>
+
+  <h3>Sobre a placa e o hodômetro</h3>
+
+  <p>Estes dois merecem um parágrafo próprio. <strong>Placa e hodômetro, juntos, identificam um bem
+  e o seu dono</strong> — é o que um comprador pede para conferir a procedência de um carro. O app
+  trata os dois como dado sensível: eles <strong>nunca aparecem em registro de diagnóstico</strong>,
+  e a tela que gera um arquivo para outra pessoa <strong>diz que eles vão dentro</strong>, com essas
+  palavras, <em>antes</em> de você confirmar.</p>
+
+  <h2>O que sai do aparelho</h2>
+
+  <div class="destaque">
+    <p><strong>Nesta versão, nada.</strong> O aplicativo não declara a permissão
+    <code>INTERNET</code> no manifesto do Android. O sistema operacional recusa qualquer tentativa
+    de abrir uma conexão — e por isso a garantia não depende da nossa disciplina, nem de você
+    acreditar em nós.</p>
+    <p>Você pode conferir: nos <strong>detalhes do aplicativo</strong>, em Ajustes do Android, a
+    lista de permissões do SAuto está vazia.</p>
+  </div>
+
+  <p><strong>E o que você mandar, quando você mandar.</strong> À medida que as funções de exportação
+  chegarem, elas entregam um arquivo à folha de compartilhamento do Android, e
+  <strong>quem escolhe o destino é você</strong> — o app não tem para onde enviar por conta
+  própria:</p>
+
+  <ul>
+    <li>a <strong>cópia de segurança</strong> dos seus dados, para uma pasta que você aponta no
+    seletor do próprio aparelho;</li>
+    <li>os <strong>relatórios em CSV e PDF</strong>, inclusive o histórico do veículo para revenda.</li>
+  </ul>
+
+  <p>A tela que gera cada um <strong>diz o que vai dentro</strong> antes de você confirmar — e no
+  histórico para revenda isso inclui, com todas as letras, que <strong>placa e hodômetro
+  acompanham</strong>.</p>
+
+  <p><strong>E o que não existe, e não passou despercebido:</strong></p>
+
+  <ul>
+    <li><strong>Não há análise de uso, telemetria nem relatório de falhas.</strong> O app não conta
+    quantas vezes você o abriu, nem para si mesmo. Uma biblioteca de relatório de falhas seria uma
+    saída de rede, e por isso ela não entrou.</li>
+    <li><strong>Não há publicidade</strong> e nenhuma biblioteca de anúncios.</li>
+    <li><strong>Não há conta, login nem senha.</strong> Não existe cadastro, então não existe nada
+    associado a você em servidor nenhum.</li>
+    <li><strong>Não há consulta de cotação de moeda.</strong> Quando um veículo está em outra moeda,
+    o app mostra os valores naquela moeda e <strong>não converte</strong> — converter exigiria
+    perguntar a cotação a alguém.</li>
+    <li><strong>A cópia automática para a nuvem está desligada</strong>
+    (<code>allowBackup="false"</code>). O Android copia dados de aplicativos para o Google Drive por
+    padrão; no SAuto isso foi <strong>desativado de propósito</strong>, junto com a transferência
+    para um aparelho novo, para que o histórico do seu veículo não saia daí sem você pedir.</li>
+  </ul>
+
+  <h3>Quando o SAuto Pro existir</h3>
+
+  <p>A assinatura ainda <strong>não está no aplicativo</strong>. Quando estiver, ela acrescenta uma
+  saída — a pergunta <em>“esta conta assinou o Pro?”</em> à <strong>Google Play</strong>, pelo
+  próprio aparelho —, e <strong>esta página será atualizada antes</strong> de a versão com a
+  assinatura chegar à loja. O pagamento é todo do Google: o app não recebe, não vê e não guarda
+  dados de cartão.</p>
+
+  <h2>Com quem os dados são compartilhados</h2>
+
+  <p><strong>Com ninguém.</strong> Não vendemos, não alugamos e não compartilhamos dados seus — não
+  há dados nossos sobre você para compartilhar. Não há servidor nosso, não há parceiro, não há
+  anunciante e não há serviço de análise.</p>
+
+  <p>O único componente externo é a <strong>Google Play</strong>, usada para distribuir o
+  aplicativo.</p>
+
+  <h2>Permissões que o app pede, e para quê</h2>
+
+  <p><strong>Nenhuma.</strong> O SAuto não pede permissão de internet, de localização, de câmera, de
+  microfone, de contatos nem de armazenamento.</p>
+
+  <p>Quando você anexar um documento ou salvar uma exportação, quem abre o seletor de arquivos é o
+  <strong>sistema</strong>, e o app recebe apenas o arquivo que <strong>você</strong> escolheu — sem
+  ganhar acesso ao resto do aparelho.</p>
+
+  <h2>Por quanto tempo os dados ficam</h2>
+
+  <p>Pelo tempo que você quiser. Eles vivem no seu aparelho e ninguém mais os alcança.</p>
+
+  <div class="destaque">
+    <p><strong>Desinstalar o aplicativo apaga tudo.</strong> O Android remove a área privada do app
+    junto com ele, e — como a cópia para a nuvem está desligada — <strong>não há nada em lugar
+    nenhum para restaurar</strong>. <strong>Atualizar preserva</strong> — só desinstalar apaga.</p>
+    <p>Enquanto a função de cópia de segurança não existir, <strong>a única forma de não perder o
+    histórico é não desinstalar</strong>. Está dito aqui porque é a consequência real de os dados
+    serem só seus.</p>
+  </div>
+
+  <h3>Quando uma atualização muda a forma de guardar</h3>
+
+  <p>O SAuto altera o banco de dados por <strong>passos explícitos e versionados</strong>, dentro de
+  uma transação: ou o passo inteiro funciona, ou <strong>nada é alterado</strong> e o app abre numa
+  tela dizendo o que houve. Ele <strong>nunca recria o banco do zero</strong> para resolver um
+  problema de formato — recriar apagaria os seus dados, e não há cópia remota para desfazer isso.</p>
+
+  <p>Se o banco tiver sido gravado por uma versão <em>mais nova</em> do que a instalada, o app
+  <strong>não mexe nele</strong>: ele abre avisando que os dados continuam ali e que basta
+  atualizar.</p>
+
+  <h2>Os seus direitos</h2>
+
+  <p>A LGPD garante a você acesso, correção e eliminação dos seus dados. No SAuto os quatro são
+  imediatos e não dependem de pedido a ninguém, porque os dados estão com você:</p>
+
+  <table>
+    <tr><th>Direito</th><th>Como exercer</th></tr>
+    <tr><td>Acesso</td><td>Abrir o app. É tudo o que existe.</td></tr>
+    <tr><td>Correção</td><td>Alterar dentro do próprio app.</td></tr>
+    <tr><td>Eliminação</td><td>Apagar item a item dentro do app, limpar os dados nos ajustes do
+    Android, ou desinstalar.</td></tr>
+    <tr><td>Portabilidade</td><td>As <strong>exportações em CSV e PDF</strong> e a <strong>cópia de
+    segurança</strong>: arquivos que <strong>você</strong> gera e <strong>você</strong> guarda onde
+    quiser. <em>Chegam nas próximas versões.</em></td></tr>
+  </table>
+
+  <p>Como o desenvolvedor não recebe, não armazena e não tem acesso a nenhum dado seu, não há como
+  ele atender a um pedido de acesso ou exclusão — não porque se recuse, mas porque não há nada do
+  seu lado dele.</p>
+
+  <h2>Crianças</h2>
+
+  <p>O aplicativo não é dirigido a crianças e não coleta conscientemente dados de menores de 13 anos.</p>
+
+  <h2>Mudanças nesta política</h2>
+
+  <p>Se o SAuto passar a guardar ou a enviar algo diferente, esta página muda <strong>antes</strong>
+  da versão que fizer isso chegar à loja, e a data no topo é atualizada. <strong>Duas mudanças já
+  estão previstas</strong> e serão escritas aqui quando acontecerem: a <strong>cópia de
+  segurança</strong> para uma pasta que você aponta, e a <strong>assinatura do SAuto Pro</strong>
+  pela Google Play. Mudanças relevantes também são anunciadas nas novidades da versão, dentro do
+  próprio aplicativo. O histórico de alterações fica público em
+  <a href="https://github.com/ivanclay/privacidade">github.com/ivanclay/privacidade</a>.</p>
+
+  <footer>
+    <p><a href="../">Voltar para a lista de políticas</a></p>
+    <p>O SAuto é um caderno de bordo pessoal. Ele não é um aplicativo oficial, não tem vínculo com
+    nenhum órgão de trânsito, montadora ou seguradora, e não consulta base de dados de terceiros.</p>
+  </footer>
+
+</main>
+</body>
+</html>
