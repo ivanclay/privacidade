@@ -8,8 +8,14 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 |---|---|
 | Índice | `https://ivanclay.github.io/privacidade/` |
 | Caderno | `https://ivanclay.github.io/privacidade/caderno/` |
+| SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 
-É este segundo endereço que vai no campo **"Política de Privacidade"** do Google Play Console.
+**No Google Play Console, cada app recebe o endereço da PASTA DELE** — nunca o do índice e nunca o
+de outro app. O campo se chama *"Política de Privacidade"* e fica na configuração do app.
+
+> ⚠ Apontar o Console de um app para a página de outro não dá erro em lugar nenhum: a página abre,
+> o campo aceita, e a revisão pode passar. O que fica publicado é uma **declaração formal sobre
+> práticas que não são as daquele app** — e quem lê uma política não tem como conferir.
 
 ---
 
@@ -60,6 +66,7 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 - [x] ~~Preencher o e-mail de contato em `caderno/index.html`~~ · feito em 2026-09-02.
 - [x] ~~Ligar o GitHub Pages~~ · feito em 2026-09-02.
 - [ ] Conferir a página no celular antes de colar o endereço no Play Console.
+- [ ] SMarket: conferir a data, a versão e o e-mail de contato do topo da página.
 
 ## Manutenção
 
