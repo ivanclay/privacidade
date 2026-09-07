@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade — SPharmacy</title>
+<meta name="description" content="Política de privacidade do aplicativo SPharmacy. Sem conta, sem servidor e sem telemetria: o que a sua casa toma de remédio fica no seu aparelho.">
+<link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+<main>
+
+  <h1>Política de privacidade — SPharmacy</h1>
+  <p class="subtitulo">Versão 0.10.0 · atualizada em 7 de setembro de 2026</p>
+
+  <div class="destaque">
+    <p><strong>O SPharmacy não tem conta, não tem servidor e não tem telemetria.</strong> Os
+    medicamentos da sua casa, quem toma o quê, as receitas, as fotos delas e o histórico de doses
+    ficam num banco de dados dentro do seu aparelho. Não há cadastro para fazer e não há nada nosso
+    do outro lado.</p>
+    <p><strong>Uma coisa sai do aparelho, e ela está nomeada nesta página:</strong> a consulta ao
+    Bulário Eletrônico da ANVISA, para trazer a bula de um remédio. Ela leva <strong>o número de
+    registro ou o nome do medicamento</strong>, e mais nada — nem quem toma, nem quanto tem em casa,
+    nem um identificador do seu aparelho.</p>
+    <p><strong>Este app guarda dados de saúde</strong>, que são os mais sensíveis que existem. Por
+    isso esta página é mais longa que as outras: cada campo delicado tem uma seção própria dizendo o
+    que o aplicativo faz por você e o que depende de você.</p>
+  </div>
+
+  <h2>Quem é o responsável</h2>
+
+  <p>O SPharmacy é desenvolvido e publicado por <strong>Ivan Moura</strong>, pessoa física.</p>
+
+  <p><strong>Contato:</strong>
+  <a href="mailto:ivan.clay.moura@gmail.com">ivan.clay.moura@gmail.com</a></p>
+
+  <h2>O que o aplicativo guarda</h2>
+
+  <p>Tudo fica num banco de dados na área privada do app, no seu aparelho:</p>
+
+  <table>
+    <tr><th>O quê</th><th>Para quê</th></tr>
+    <tr>
+      <td><strong>As pessoas da casa</strong> — o nome que você escrever, a data de nascimento se
+      você informar, e um campo livre de observações</td>
+      <td>Para o app saber de quem é cada dose e cada receita. Tem seção própria mais abaixo.</td>
+    </tr>
+    <tr>
+      <td><strong>Os medicamentos e as apresentações</strong> — nome, princípio ativo, concentração,
+      forma farmacêutica, fabricante, tarja, código de barras e registro na ANVISA</td>
+      <td>Para o mesmo remédio, comprado em caixas diferentes, ser reconhecido como um só — e para
+      o app avisar quando dois medicamentos da casa têm o mesmo princípio ativo.</td>
+    </tr>
+    <tr>
+      <td><strong>As caixas que você tem</strong> — o lote, a validade, quanto resta e em que
+      unidade</td>
+      <td>É o estoque. É o que sustenta “venceu”, “está acabando” e “acaba por volta de tal dia”.</td>
+    </tr>
+    <tr>
+      <td><strong>Cada entrada e cada saída de estoque</strong>, com data e motivo</td>
+      <td>É o livro-razão de cada caixa: por que o número mudou, e quando.</td>
+    </tr>
+    <tr>
+      <td><strong>As doses registradas</strong> — quem tomou, quanto, quando, por quê, e quem
+      administrou</td>
+      <td>É o histórico de uso. Também é o que o calendário mostra.</td>
+    </tr>
+    <tr>
+      <td><strong>As receitas</strong> — de quem é, <strong>o nome de quem prescreveu</strong> e o
+      conselho/UF, a data de emissão, a validade, o tipo, o motivo da consulta, quantas retiradas
+      foram autorizadas e usadas, e <strong>a foto da receita</strong>, se você tirar uma</td>
+      <td>Para o app saber o que foi prescrito e até quando vale. Tem duas seções próprias mais
+      abaixo.</td>
+    </tr>
+    <tr>
+      <td><strong>As prescrições</strong> — o medicamento, a dose, o intervalo, a duração, a
+      instrução escrita e se o aviso está ligado</td>
+      <td>É o que gera o esperado do dia e o horário do alarme.</td>
+    </tr>
+    <tr>
+      <td><strong>Os horários de aviso</strong> que você marcar</td>
+      <td>Para o aparelho tocar na hora certa.</td>
+    </tr>
+    <tr>
+      <td><strong>As notas fiscais que você capturar</strong> — a chave de acesso lida do QR Code, e
+      o estabelecimento com nome, CNPJ e endereço</td>
+      <td>Para ligar uma compra ao que entrou no armário. <strong>Hoje o app apenas guarda a
+      chave</strong> — ele ainda não a consulta em lugar nenhum.</td>
+    </tr>
+  </table>
+
+  <p>Não há cadastro, login, e-mail, telefone, identificador de publicidade nem qualquer forma de
+  perfil associada a você.</p>
+
+  <h3>Sobre a foto da receita</h3>
+
+  <p>Uma receita médica é o documento mais sensível que este aplicativo toca: ela costuma trazer o
+  seu nome, o nome de quem prescreveu, o registro profissional dele e o que foi prescrito.</p>
+
+  <p>Quando você fotografa uma receita, ou escolhe uma imagem pelo seletor do Android, ela é copiada
+  para a <strong>área privada do aplicativo</strong> — a mesma que guarda o banco de dados. Nenhum
+  outro aplicativo do aparelho a alcança, ela não aparece na galeria, e <strong>ela não é enviada a
+  lugar nenhum</strong>. O app não lê o que está escrito nela: para o aplicativo, é uma imagem que
+  você anexou.</p>
+
+  <p>O app <strong>não escolhe a imagem por você</strong>: quem abre o seletor é o Android, você
+  aponta o arquivo, e o SPharmacy recebe só aquele. Ele não varre a sua galeria e não pede permissão
+  para ver as suas fotos.</p>
+
+  <p><strong>A foto entra na cópia de segurança</strong>, e a tela que gera a cópia diz isso com o
+  número de fotos antes de você confirmar — porque um arquivo com receita médica dentro não pode
+  sair do aparelho sem você saber.</p>
+
+  <h3>Sobre o nome de quem prescreveu</h3>
+
+  <p>O SPharmacy guarda o <strong>nome de uma pessoa que não é você</strong>: quem assinou a
+  receita. Esse médico ou essa médica não instalou o aplicativo, não leu esta página e não escolheu
+  nada — e é por isso que esse dado recebe o mesmo cuidado do resto:</p>
+
+  <ul>
+    <li><strong>O campo é opcional.</strong> Você pode deixá-lo em branco, ou escrever só um
+    sobrenome: o app não precisa do nome completo de ninguém para controlar uma receita.</li>
+    <li><strong>Ele não sai do aparelho.</strong> A única saída de rede do app leva o registro ou o
+    nome de um <em>medicamento</em>, nunca um nome de gente.</li>
+    <li><strong>Ele nunca aparece em registros de diagnóstico do aplicativo.</strong></li>
+    <li>O app não guarda endereço, telefone, e-mail nem qualquer outro dado dessa pessoa — só o nome
+    que você escreveu e, se você informar, o conselho e a UF.</li>
+  </ul>
+
+  <h3>Sobre o campo de observações da pessoa</h3>
+
+  <p>É o único campo do SPharmacy cujo conteúdo o aplicativo não conhece. Nos outros ele sabe o que
+  está guardando: um nome, uma data, uma quantidade, uma unidade. No campo de observações você
+  escreve o que quiser — e por isso ele é o único lugar em que a proteção não pode ser técnica.</p>
+
+  <p><strong>O que o aplicativo faz por você:</strong></p>
+
+  <ul>
+    <li>limita o campo a 2 000 caracteres, para que ele não vire um prontuário;</li>
+    <li>nunca registra o texto em nenhum diagnóstico — nem o conteúdo, nem o tamanho, nem o fato de
+    existir observação;</li>
+    <li><strong>nunca usa esse texto para concluir coisa alguma.</strong> O app não cruza o que você
+    escreveu ali com nenhum medicamento e não emite aviso a partir dele. Ele é um bloco de notas, e
+    é só isso que ele é.</li>
+  </ul>
+
+  <p><strong>O que depende de você:</strong> o que você escreve ali. Ele entra na cópia de segurança
+  junto com o resto, então trate-o como trataria uma anotação em papel guardada na gaveta do
+  remédio.</p>
+
+  <h3>Sobre a data de nascimento</h3>
+
+  <p>É <strong>opcional</strong> e serve para distinguir duas pessoas da casa com nomes parecidos —
+  e para você saber de quem é a caixa. <strong>O app não a usa para calcular dose, nem para
+  qualquer conclusão sobre tratamento.</strong> Se você não quiser informá-la, o aplicativo funciona
+  igual.</p>
+
+  <h2>O que sai do aparelho</h2>
+
+  <p><strong>Uma coisa, e só esta.</strong> Ela está aqui com nome e motivo porque uma política que
+  dissesse “nada” seria falsa:</p>
+
+  <table>
+    <tr><th>O quê</th><th>Para onde</th><th>Por quê</th></tr>
+    <tr>
+      <td><strong>O número de registro do medicamento</strong> — o que está impresso na caixa —,
+      <strong>ou o nome dele</strong>, quando a caixa não tem registro cadastrado</td>
+      <td>O <strong>Bulário Eletrônico da ANVISA</strong>
+      (<code>consultas.anvisa.gov.br</code>), um serviço público</td>
+      <td>É como o app traz a bula oficial para dentro dele, em vez de só apontar para um site.
+      Acontece <strong>quando você toca em “Ver a bula oficial”</strong> — nunca em segundo plano, e
+      nunca sozinho.</td>
+    </tr>
+  </table>
+
+  <p><strong>O que vai nessa consulta é literalmente isso: um número, ou um nome de remédio.</strong>
+  Não vai o seu nome, não vai o nome de quem toma, não vai um identificador do aparelho, não vai uma
+  conta, não vai quantas caixas você tem nem desde quando. <strong>A ANVISA não tem como saber que
+  duas consultas vieram da mesma casa</strong>, nem que a pessoa que consultou é a mesma que toma o
+  remédio.</p>
+
+  <p>A bula que volta é o <strong>PDF oficial da bula do paciente</strong>, guardado na área
+  temporária do app e exibido como foi publicado. O aplicativo <strong>não resume, não reescreve e
+  não destaca</strong> trecho nenhum dela.</p>
+
+  <p><strong>E o que você mandar, quando você mandar.</strong> A <strong>cópia de segurança</strong>
+  é um arquivo entregue à folha de compartilhamento do Android, e <strong>quem escolhe o destino é
+  você</strong> — o app não tem para onde enviar por conta própria. A tela que a gera
+  <strong>diz o que vai dentro</strong>, inclusive quantas fotos de receita, antes de você
+  confirmar.</p>
+
+  <p><strong>E o que não sai, apesar de o app ter a permissão de internet:</strong></p>
+
+  <ul>
+    <li><strong>Não há análise de uso, telemetria nem relatório de falhas.</strong> O app não conta
+    quantas vezes você o abriu, nem para si mesmo.</li>
+    <li><strong>Não há publicidade</strong> e nenhuma biblioteca de anúncios.</li>
+    <li><strong>Não há conta, login nem senha.</strong> Não existe cadastro, então não existe nada
+    associado a você em servidor nenhum.</li>
+    <li><strong>Nenhum dado de saúde vai à rede.</strong> Nome, data de nascimento, observações,
+    receitas, fotos, doses e estoque <strong>não têm caminho</strong> para fora do aparelho — a
+    única saída existente leva um número de registro de medicamento.</li>
+    <li><strong>A leitura de código de barras acontece dentro do aparelho.</strong> O reconhecedor
+    vem embarcado no aplicativo e funciona com o telefone em <strong>modo avião</strong> — o que é a
+    prova de que a imagem da câmera não é enviada a ninguém, e não apenas a promessa.</li>
+    <li><strong>A cópia automática para a nuvem está desligada</strong>
+    (<code>allowBackup="false"</code>, mais as regras de extração da API 31 em diante). O Android
+    copia dados de aplicativos para o Google Drive por padrão; no SPharmacy isso foi
+    <strong>desativado de propósito</strong>, junto com a transferência para um aparelho novo, para
+    que as receitas da sua casa não saiam daí sem você pedir.</li>
+  </ul>
+
+  <h2>Com quem os dados são compartilhados</h2>
+
+  <p><strong>Com ninguém.</strong> Não vendemos, não alugamos e não compartilhamos dados seus — não
+  há dados nossos sobre você para compartilhar. Não há servidor nosso, não há parceiro, não há
+  anunciante e não há serviço de análise.</p>
+
+  <p>Os únicos componentes externos são <strong>bibliotecas de reconhecimento de código de barras
+  que rodam dentro do aparelho</strong>, sem enviar nada para fora, e os <strong>serviços da Google
+  Play</strong>, usados para distribuir o aplicativo.</p>
+
+  <h2>Permissões que o app pede, e para quê</h2>
+
+  <table>
+    <tr><th>Permissão</th><th>Quando é usada</th></tr>
+    <tr>
+      <td><strong>Internet</strong></td>
+      <td>Consultar o Bulário da ANVISA para trazer a bula. É a única saída de rede.</td>
+    </tr>
+    <tr>
+      <td><strong>Câmera</strong></td>
+      <td>Ler o código de barras da caixa do remédio, ler o QR Code do cupom fiscal, e fotografar
+      uma receita. As imagens são processadas dentro do aparelho.</td>
+    </tr>
+    <tr>
+      <td><strong>Notificações</strong></td>
+      <td>Avisar na hora do remédio. O aviso é criado pelo próprio aparelho, offline: não existe
+      notificação enviada por servidor.</td>
+    </tr>
+    <tr>
+      <td><strong>Alarme exato</strong></td>
+      <td>Fazer o aviso tocar na hora certa, e não “por volta de”.</td>
+    </tr>
+    <tr>
+      <td><strong>Iniciar após reiniciar</strong></td>
+      <td>Remarcar os avisos depois que o aparelho é desligado e ligado — sem isso, os alarmes se
+      perderiam em silêncio.</td>
+    </tr>
+    <tr>
+      <td><strong>Vibração</strong></td>
+      <td>O aviso de remédio.</td>
+    </tr>
+  </table>
+
+  <p>Você pode recusar câmera e notificações: <strong>o app continua funcionando</strong>, e só as
+  funções que dependem delas ficam indisponíveis — você digita em vez de escanear, e confere o
+  aplicativo em vez de ser avisado. <strong>O app não pede permissão para ler as suas fotos:</strong>
+  quando você anexa uma receita, quem abre o seletor é o Android e o app recebe só o arquivo que
+  você apontou.</p>
+
+  <h2>Por quanto tempo os dados ficam</h2>
+
+  <p>Pelo tempo que você quiser. Eles vivem no seu aparelho e ninguém mais os alcança.</p>
+
+  <div class="destaque">
+    <p><strong>Desinstalar o aplicativo apaga tudo</strong> — inclusive as fotos das receitas. O
+    Android remove a área privada do app junto com ele, e — como a cópia para a nuvem está
+    desligada — <strong>não há nada em lugar nenhum para restaurar</strong>. <strong>Atualizar
+    preserva</strong> — só desinstalar apaga.</p>
+  </div>
+
+  <h3>A cópia de segurança</h3>
+
+  <p>Você pode gerar, quando quiser, um arquivo com os seus dados. Ele contém o banco de dados
+  <strong>e as fotos das receitas</strong>, e a tela diz quantas são antes de você confirmar. É um
+  arquivo comum: você consegue abri-lo e ver as fotos sem este aplicativo — uma receita é um
+  documento seu, e não deve ficar refém do app que a guardou.</p>
+
+  <p><strong>Ele fica onde você mandar.</strong> Se você o salvar numa nuvem, os dados passam a estar
+  lá, sob as regras daquele serviço. O app não faz isso por você e não tem como.</p>
+
+  <h2>Sobre saúde</h2>
+
+  <div class="destaque">
+    <p><strong>O SPharmacy é um caderno, não um profissional de saúde.</strong> Ele registra o que
+    você declarou e afirma <strong>fatos sobre o seu estoque</strong>: “este lote venceu”, “está
+    acabando”, “estes dois remédios têm o mesmo princípio ativo”, “no ritmo da receita, acaba por
+    volta de tal dia”.</p>
+    <p><strong>Ele não interpreta, não recomenda, não alerta clinicamente e não substitui
+    ninguém.</strong> Não sugere dose, não sugere substituição, não avalia interação e não conclui
+    nada a partir do que você escreveu sobre uma pessoa. A leitura de todos esses fatos é sua e de
+    quem cuida de você.</p>
+    <p>A bula que ele mostra é o <strong>documento oficial da ANVISA</strong>, exibido como foi
+    publicado.</p>
+  </div>
+
+  <h2>Os seus direitos</h2>
+
+  <p>A LGPD garante a você acesso, correção e eliminação dos seus dados. No SPharmacy os quatro são
+  imediatos e não dependem de pedido a ninguém, porque os dados estão com você:</p>
+
+  <table>
+    <tr><th>Direito</th><th>Como exercer</th></tr>
+    <tr><td>Acesso</td><td>Abrir o app. É tudo o que existe.</td></tr>
+    <tr><td>Correção</td><td>Alterar dentro do próprio app — inclusive corrigir lote, validade,
+    dose e receita.</td></tr>
+    <tr><td>Eliminação</td><td>Apagar item a item dentro do app, limpar os dados nos ajustes do
+    Android, ou desinstalar. Uma pessoa com histórico pode ser <strong>arquivada</strong> em vez de
+    apagada, para que o registro do que ela tomou não se perca — e arquivá-la desliga os avisos
+    dela.</td></tr>
+    <tr><td>Portabilidade</td><td>A <strong>cópia de segurança</strong>: um arquivo que
+    <strong>você</strong> gera e <strong>você</strong> guarda onde quiser.</td></tr>
+  </table>
+
+  <p>Como o desenvolvedor não recebe, não armazena e não tem acesso a nenhum dado seu, não há como
+  ele atender a um pedido de acesso ou exclusão — não porque se recuse, mas porque não há nada do
+  seu lado dele.</p>
+
+  <h2>Crianças</h2>
+
+  <p>O aplicativo não é dirigido a crianças e não coleta conscientemente dados de menores de 13
+  anos. Ele pode ser usado por um adulto <strong>para registrar o remédio de uma criança da
+  casa</strong> — nesse caso, o dado é registrado por quem é responsável por ela, fica no aparelho
+  dessa pessoa e não vai a lugar nenhum.</p>
+
+  <h2>Mudanças nesta política</h2>
+
+  <p>Se o SPharmacy passar a guardar ou a enviar algo diferente, esta página muda
+  <strong>antes</strong> da versão que fizer isso chegar à loja, e a data no topo é atualizada. O
+  histórico de alterações fica público em
+  <a href="https://github.com/ivanclay/privacidade">github.com/ivanclay/privacidade</a>.</p>
+
+  <footer>
+    <p><a href="../">Voltar para a lista de políticas</a></p>
+    <p>O SPharmacy consulta o Bulário Eletrônico da ANVISA, um serviço público. Não é um aplicativo
+    oficial e não tem vínculo com a ANVISA nem com nenhum órgão do governo.</p>
+  </footer>
+
+</main>
+</body>
+</html>
