@@ -10,6 +10,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | Caderno | `https://ivanclay.github.io/privacidade/caderno/` |
 | SAuto | `https://ivanclay.github.io/privacidade/sauto/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
+| SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
 
 **No Google Play Console, cada app recebe o endereço da PASTA DELE** — nunca o do índice e nunca o
 de outro app. O campo se chama *"Política de Privacidade"* e fica na configuração do app.
@@ -68,6 +69,12 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 - [x] ~~Ligar o GitHub Pages~~ · feito em 2026-09-02.
 - [ ] Conferir a página no celular antes de colar o endereço no Play Console.
 - [ ] SMarket: conferir a data, a versão e o e-mail de contato do topo da página.
+- [ ] **SPharmacy: apontar o Play Console para `.../privacidade/spharmacy/`.** O aplicativo
+      ainda não foi submetido, e a página é **exigida** pela loja — sem ela a distribuição não
+      anda.
+- [ ] **SPharmacy: a página promete mudar antes da próxima saída de rede.** Ela descreve o
+      Bulário da ANVISA e a consulta à SEFAZ; a foto da receita no Google Drive **ainda não foi
+      decidida**, e se for, é conteúdo do usuário amarrado a uma conta — outra natureza.
 - [ ] **SAuto: apontar o Play Console para `.../privacidade/sauto/`.** O aplicativo ainda não foi
       submetido; a página existe porque a tela "Sobre" dentro do app precisa linkar para ela.
 - [ ] **SAuto: o app ainda não tem cópia de segurança nem assinatura.** A página já diz que as duas
