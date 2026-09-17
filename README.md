@@ -8,7 +8,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 |---|---|
 | Índice | `https://ivanclay.github.io/privacidade/` |
 | Caderno | `https://ivanclay.github.io/privacidade/caderno/` |
-| SAuto | `https://ivanclay.github.io/privacidade/sauto/` |
+| S-Auto | `https://ivanclay.github.io/privacidade/sauto/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
 
@@ -75,12 +75,13 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 - [ ] **SPharmacy: a página promete mudar antes da próxima saída de rede.** Ela descreve o
       Bulário da ANVISA e a consulta à SEFAZ; a foto da receita no Google Drive **ainda não foi
       decidida**, e se for, é conteúdo do usuário amarrado a uma conta — outra natureza.
-- [ ] **SAuto: apontar o Play Console para `.../privacidade/sauto/`.** O aplicativo ainda não foi
-      submetido; a página existe porque a tela "Sobre" dentro do app precisa linkar para ela.
-- [ ] **SAuto: o app ainda não tem cópia de segurança nem assinatura.** A página já diz que as duas
-      chegam e que ela muda antes — **é essa promessa que precisa ser cumprida**, não esquecida.
-- [ ] **SAuto: falta o EULA (termos de uso).** Este repositório só tem políticas de privacidade, e a
-      tela "Sobre" do SAuto linka para os dois documentos. O segundo não existe em lugar nenhum.
+- [ ] **S-Auto: apontar o Play Console para `.../privacidade/sauto/`.** O app está no teste interno
+      (0.25.0); a página é exigida antes da produção. A pasta continua `sauto/` — o endereço não muda
+      com o nome.
+- [x] **S-Auto: a cópia de segurança e a assinatura chegaram, e a página mudou antes da loja**
+      (versão 0.25.0, 2026-09-17), junto com o nome novo, **S-Auto**.
+- [x] **S-Auto: não há EULA, e a tela "Sobre" não o linka.** A Google Play exige só a política de
+      privacidade.
 
 ## Manutenção
 
