@@ -11,7 +11,7 @@
 <main>
 
   <h1>Política de privacidade — S-Auto</h1>
-  <p class="subtitulo">Versão 0.25.0 · atualizada em 17 de setembro de 2026</p>
+  <p class="subtitulo">Versão 0.26.0 · atualizada em 17 de setembro de 2026</p>
 
   <div class="destaque">
     <p><strong>O S-Auto não tem conta, não tem servidor e não tem telemetria.</strong> Os veículos,
@@ -78,6 +78,14 @@
       <td>Para o histórico do veículo e para o aviso de vencimento da apólice.</td>
     </tr>
     <tr>
+      <td><strong>Os documentos que você guardar</strong> — o arquivo (PDF ou foto) que você escolher,
+      como o CRLV, a apólice, o contrato ou a nota de uma revisão, com o nome, a categoria e a data de
+      vencimento que você der</td>
+      <td>Para ter os papéis do veículo à mão e saber quando vencem. <strong>O arquivo fica
+      criptografado</strong> (AES-GCM), com uma chave que o Android guarda no próprio aparelho e que
+      não sai dele; nem uma cópia do arquivo em outro lugar abre sem ela.</td>
+    </tr>
+    <tr>
       <td><strong>Preferências simples</strong> — o veículo em uso, a antecedência e o horário dos
       avisos, a data da última cópia de segurança, a última versão de novidades que você já leu</td>
       <td>Para o app lembrar das suas escolhas.</td>
@@ -102,6 +110,11 @@
   e a tela que gera um arquivo para outra pessoa <strong>diz que eles vão dentro</strong>, com essas
   palavras, <em>antes</em> de você confirmar.</p>
 
+  <p><strong>Os documentos guardados são ainda mais sensíveis</strong> — um CRLV traz placa, RENAVAM e
+  o nome do proprietário. Por isso o arquivo é criptografado, o nome dele não vai para registro de
+  diagnóstico, e ao abri-lo o app mostra o conteúdo <strong>dentro dele mesmo</strong>, sem entregá-lo
+  a outro aplicativo.</p>
+
   <h2>O que sai do aparelho</h2>
 
   <div class="destaque">
@@ -122,16 +135,25 @@
     S-Auto</strong>, no próprio aparelho, ou, no S-Auto Pro, na pasta que você apontar no seletor do
     sistema (um cartão, o Google Drive, o OneDrive… o app não tem a sua conta e não guarda senha);</li>
     <li>as <strong>exportações em CSV e PDF</strong>, inclusive o histórico do veículo para revenda,
-    entregues à folha de compartilhamento do Android.</li>
+    entregues à folha de compartilhamento do Android;</li>
+    <li>um <strong>documento guardado</strong>, quando você o abre e toca em
+    <em>Compartilhar</em>: o arquivo sai <strong>sem a criptografia</strong>, para o aplicativo que você
+    escolher, e a tela diz isso antes.</li>
   </ul>
+
+  <p><strong>A cópia de segurança não leva o arquivo dos documentos</strong> — a chave que o abre não sai
+  do aparelho, e um arquivo que não abre em outro celular não é cópia de nada. Ela leva o nome, a
+  categoria e a data de vencimento, e a tela diz, antes de copiar, quantos arquivos ficam de fora. Para
+  levar um documento a outro aparelho, abra-o e toque em <em>Compartilhar</em>.</p>
 
   <p>A tela que gera cada um <strong>diz o que vai dentro</strong> antes de você confirmar — e no
   histórico para revenda isso inclui, com todas as letras, que <strong>placa e hodômetro
   acompanham</strong>.</p>
 
-  <p><strong>E o que entra:</strong> quando você <strong>importa uma planilha</strong> ou
-  <strong>restaura uma cópia</strong>, o app lê só o arquivo que você escolheu no seletor, confere o
-  conteúdo antes de gravar, e não ganha acesso ao resto do aparelho.</p>
+  <p><strong>E o que entra:</strong> quando você <strong>importa uma planilha</strong>,
+  <strong>restaura uma cópia</strong> ou <strong>guarda um documento</strong>, o app lê só o arquivo que
+  você escolheu no seletor, confere o conteúdo antes de gravar, e não ganha acesso ao resto do
+  aparelho.</p>
 
   <h3>O S-Auto Pro e a Google Play</h3>
 
@@ -190,7 +212,7 @@
 
   <p><strong>Nenhuma outra.</strong> O S-Auto não pede permissão de internet, de localização, de
   câmera, de microfone, de contatos nem de armazenamento. Quando você salva uma exportação, escolhe
-  onde guardar a cópia ou importa uma planilha, quem abre o seletor de arquivos é o
+  onde guardar a cópia, importa uma planilha ou guarda um documento, quem abre o seletor de arquivos é o
   <strong>sistema</strong>, e o app recebe apenas o arquivo que <strong>você</strong> escolheu.</p>
 
   <h2>Por quanto tempo os dados ficam</h2>
@@ -198,13 +220,15 @@
   <p>Pelo tempo que você quiser. Eles vivem no seu aparelho e ninguém mais os alcança.</p>
 
   <div class="destaque">
-    <p><strong>Desinstalar o aplicativo apaga o banco de dados.</strong> O Android remove a área
-    privada do app junto com ele. <strong>Atualizar preserva</strong> — só desinstalar apaga.</p>
+    <p><strong>Desinstalar o aplicativo apaga o banco de dados e os documentos guardados.</strong> O
+    Android remove a área privada do app junto com ele, e com ela a chave que abre os documentos.
+    <strong>Atualizar preserva</strong> — só desinstalar apaga.</p>
     <p><strong>As cópias de segurança ficam</strong>: as de <strong>Downloads › S-Auto</strong> não são
     apagadas ao desinstalar, e as que você mandou para outra pasta estão onde você as pôs. É com elas
-    que se restaura tudo depois de reinstalar ou num aparelho novo. <strong>Sem uma cópia, não há
-    nada em lugar nenhum para restaurar</strong> — está dito aqui porque é a consequência real de os
-    dados serem só seus.</p>
+    que se restaura tudo depois de reinstalar ou num aparelho novo — <strong>menos o arquivo dos
+    documentos</strong>, que a cópia não leva: depois de restaurar, o nome volta à lista, e o arquivo se
+    repõe escolhendo-o de novo. <strong>Sem uma cópia, não há nada em lugar nenhum para
+    restaurar</strong> — está dito aqui porque é a consequência real de os dados serem só seus.</p>
     <p><strong>O S-Auto Pro não se perde com o aparelho</strong>: a compra é da sua conta na Google
     Play, e o app a recupera ao abrir, ou pelo botão <em>Restaurar compra</em>.</p>
   </div>
@@ -234,7 +258,7 @@
     Android, ou desinstalar — e apagar as cópias de segurança que você tiver guardado.</td></tr>
     <tr><td>Portabilidade</td><td>A <strong>cópia de segurança</strong> e as <strong>exportações em CSV
     e PDF</strong>: arquivos que <strong>você</strong> gera e <strong>você</strong> guarda onde
-    quiser.</td></tr>
+    quiser. Os documentos saem um a um, pelo <em>Compartilhar</em>.</td></tr>
   </table>
 
   <p>Como o desenvolvedor não recebe, não armazena e não tem acesso a nenhum dado seu, não há como
@@ -252,7 +276,11 @@
   da versão que fizer isso chegar à loja, e a data no topo é atualizada. Mudanças relevantes também
   são anunciadas nas novidades da versão, dentro do próprio aplicativo.</p>
 
-  <p><em>Nesta versão, 0.25.0:</em> o nome do aplicativo passou a ser <strong>S-Auto</strong>; entraram o
+  <p><em>Nesta versão, 0.26.0:</em> entraram os <strong>documentos do veículo</strong> — arquivos que
+  você escolhe, guardados criptografados no aparelho, fora da cópia de segurança, e que só saem pelo
+  <em>Compartilhar</em>. Nenhuma permissão nova.</p>
+
+  <p><em>Na versão 0.25.0:</em> o nome do aplicativo passou a ser <strong>S-Auto</strong>; entraram o
   <strong>S-Auto Pro pela Google Play</strong> e as permissões de compra; a descrição passou a incluir
   a cópia de segurança, a importação de planilha, as exportações, o seguro e os sinistros, que já
   estavam no aplicativo.</p>
