@@ -9,6 +9,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | Índice | `https://ivanclay.github.io/privacidade/` |
 | Caderno | `https://ivanclay.github.io/privacidade/caderno/` |
 | S-Auto | `https://ivanclay.github.io/privacidade/sauto/` |
+| S-Card | `https://ivanclay.github.io/privacidade/scard/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
 
@@ -82,6 +83,15 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
       (versão 0.25.0, 2026-09-17), junto com o nome novo, **S-Auto**.
 - [x] **S-Auto: não há EULA, e a tela "Sobre" não o linka.** A Google Play exige só a política de
       privacidade.
+- [ ] **S-Card: a página é prévia** (2026-09-21, fundação do app). Ela descreve o app como vai ser
+      publicado — câmera para ler o QR, S-Card Pro pela Google Play, sem internet, sem backup
+      automático — e **tem de ser conferida frase a frase contra o manifesto do `.aab`** antes do
+      primeiro envio. A decisão do leitor de QR (ML Kit × ZXing) ainda está aberta e pode mudar a
+      frase sobre as bibliotecas do Google.
+- [ ] **S-Card: apontar o Play Console para `.../privacidade/scard/`** no primeiro envio.
+- [ ] **S-Card: a página guarda dado de terceiros** (os cartões recebidos). Cada saída nova que os
+      leve — link, aproximação, planilha — muda a seção "Os cartões recebidos são dados de outras
+      pessoas" antes da versão.
 
 ## Manutenção
 
