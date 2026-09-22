@@ -4,27 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Política de privacidade — S-Card</title>
-<meta name="description" content="Política de privacidade do aplicativo S-Card. Sem conta, sem servidor e sem permissão de internet: o seu cartão de visitas e os cartões que você recebe ficam no seu aparelho.">
+<meta name="description" content="Política de privacidade do aplicativo S-Card. Sem conta, sem servidor e sem telemetria: o seu cartão de visitas e os cartões que você recebe ficam no seu aparelho. A internet serve só para mostrar outros aplicativos da Google Play.">
 <link rel="stylesheet" href="../estilo.css">
 </head>
 <body>
 <main>
 
   <h1>Política de privacidade — S-Card</h1>
-  <p class="subtitulo">Versão prévia · atualizada em 21 de setembro de 2026</p>
+  <p class="subtitulo">Atualizada em 22 de setembro de 2026</p>
 
-  <p><em>O S-Card ainda não está na Google Play. Esta página descreve o aplicativo como ele vai ser
-  publicado, e muda <strong>antes</strong> do primeiro envio à loja se qualquer coisa dita aqui
-  mudar.</em></p>
+  <p><em>O S-Card está em teste interno na Google Play e ainda não foi publicado. Esta página descreve
+  o aplicativo como ele é hoje, e muda <strong>antes</strong> de qualquer versão que faça algo
+  diferente chegar à loja.</em></p>
 
   <div class="destaque">
     <p><strong>O S-Card não tem conta, não tem servidor e não tem telemetria.</strong> O seu cartão de
     visitas e os cartões que você recebe ficam num banco de dados dentro do seu aparelho. Não há
     cadastro para fazer e não há nada nosso do outro lado.</p>
-    <p><strong>O aplicativo não declara a permissão de internet.</strong> Sem ela, o Android não deixa
-    o aplicativo abrir uma conexão de rede, nem que ele queira. É a diferença entre <em>“nós não
-    enviamos”</em> e <em>“ele não consegue enviar”</em>. O que sai do aparelho sai porque
-    <strong>você</strong> mandou — e está listado abaixo.</p>
+    <p><strong>O aplicativo usa a internet para uma coisa só:</strong> a tela <em>Outros
+    aplicativos</em>, em Ajustes, que mostra os outros aplicativos do autor e dos parceiros. Ela
+    <strong>lê</strong> páginas públicas da Google Play e baixa os ícones. <strong>Nada seu é
+    enviado</strong> — nem quando você abre essa tela, nem em nenhum outro momento.</p>
   </div>
 
   <h2>Quem é o responsável</h2>
@@ -43,7 +43,8 @@
     <tr>
       <td><strong>O seu cartão</strong> — o que você escolher pôr nele: nome, cargo, empresa,
       telefone, WhatsApp, e-mail, site, endereço, redes sociais, a sua foto e o logotipo da empresa, o
-      modelo e as cores</td>
+      modelo e as cores. No S-Card Pro, também o registro profissional e a chave Pix, se você os
+      escrever</td>
       <td>É o cartão que você mostra. <strong>Só o nome é obrigatório</strong>; o resto é você quem
       decide.</td>
     </tr>
@@ -55,14 +56,20 @@
       num toque.</td>
     </tr>
     <tr>
-      <td><strong>As suas notas</strong> sobre um cartão recebido e, no S-Card Pro, as
-      <strong>etiquetas</strong> que você criar</td>
-      <td>Para lembrar quem é quem. São impressões suas, e ficam com você.</td>
+      <td><strong>As suas notas</strong> sobre um cartão recebido e a <strong>categoria</strong> de
+      cada um — Pessoal e Profissional já vêm prontas, e no S-Card Pro você cria as suas</td>
+      <td>Para lembrar quem é quem e organizar a carteira. São impressões suas, e ficam com você.</td>
+    </tr>
+    <tr>
+      <td><strong>O desenho do seu cartão</strong> — o que você mudar no editor do S-Card Pro e, se
+      salvar, os <strong>seus modelos</strong>: a arrumação e as cores guardadas com um nome</td>
+      <td>Para reusar o mesmo desenho em outro cartão. É desenho, não é dado de pessoa nenhuma.</td>
     </tr>
     <tr>
       <td><strong>Preferências simples</strong> — o cartão em uso, o tema do app, a data da última
-      cópia de segurança</td>
-      <td>Para o app lembrar das suas escolhas.</td>
+      cópia de segurança e a última lista de <em>Outros aplicativos</em>, com a data em que ela foi
+      lida</td>
+      <td>Para o app lembrar das suas escolhas e ter o que mostrar quando você está sem conexão.</td>
     </tr>
     <tr>
       <td><strong>O seu plano</strong> — se há assinatura ou compra do S-Card Pro, e
@@ -92,19 +99,31 @@
     e a ocasião vão junto.</li>
   </ul>
 
-  <h2>O que sai do aparelho</h2>
+  <h2>A internet do aplicativo: uma tela, só leitura</h2>
 
   <div class="destaque">
-    <p><strong>Por conta própria, nada.</strong> O aplicativo não declara a permissão
-    <code>INTERNET</code> no manifesto do Android — nem a que as bibliotecas do Google trariam
-    junto, que é <strong>removida de propósito</strong>. O sistema operacional recusa qualquer
-    tentativa de abrir uma conexão, e por isso a garantia não depende da nossa disciplina, nem de você
-    acreditar em nós.</p>
-    <p>Você pode conferir: nos <strong>detalhes do aplicativo</strong>, em Ajustes do Android, a
-    lista de permissões do S-Card <strong>não tem internet</strong>.</p>
+    <p>O S-Card declara a permissão <code>INTERNET</code> por um motivo único: quando você abre
+    <strong>Ajustes › Outros aplicativos</strong>, ele <strong>lê as páginas públicas da Google
+    Play</strong> do autor e dos parceiros — as mesmas que qualquer pessoa abre no navegador — e baixa
+    os ícones, para mostrar a lista atualizada. Assim um aplicativo publicado depois aparece na lista
+    sem você precisar atualizar o S-Card.</p>
+    <p><strong>O que sai nessa leitura é o que qualquer navegador manda ao abrir uma página</strong>:
+    o endereço pedido e o idioma do aparelho. <strong>Não vai nada seu</strong>: nem o seu cartão, nem
+    a sua carteira, nem identificador, nem conta, nem cookie. O código que fala com a rede só sabe
+    <em>pedir uma página</em> e <em>pedir um ícone</em> — ele não tem como enviar dado nenhum, e isso é
+    verificado a cada versão por um teste que reprova qualquer código de rede fora desse lugar.</p>
+    <p>A última lista lida fica guardada no aparelho com a data. <strong>Sem conexão, a tela mostra
+    essa lista e diz de quando ela é</strong> — não inventa e não mistura.</p>
   </div>
 
-  <p><strong>O que sai, sai porque você mandou</strong>, e a tela diz o que vai antes de você
+  <p>Fora dessa tela, o aplicativo não abre conexão nenhuma: não há análise de uso, telemetria,
+  relatório de falhas nem publicidade. O componente que as bibliotecas do Google trariam para
+  <strong>enviar registros de uso ao Google</strong> é <strong>removido</strong> do aplicativo, e a
+  permissão que informa o estado da rede também.</p>
+
+  <h2>O que sai do aparelho</h2>
+
+  <p><strong>Os seus dados saem porque você mandou</strong>, e a tela diz o que vai antes de você
   confirmar:</p>
 
   <ul>
@@ -114,6 +133,9 @@
     cartão — trate-o como trataria um cartão de papel.</li>
     <li><strong>Compartilhar o seu cartão</strong> como imagem ou como arquivo de contato
     (<code>.vcf</code>), pela folha de compartilhamento do Android: quem escolhe o destino é você.</li>
+    <li><strong>Encostar os aparelhos (NFC)</strong>, na tela <em>Encostar</em>. Aí o cartão vai
+    inteiro — com a foto, o logotipo e o desenho —, e só enquanto essa tela está aberta: ao sair dela,
+    o aparelho para de responder.</li>
     <li><strong>Salvar um cartão na agenda</strong> do aparelho: o app entrega os dados ao aplicativo
     de contatos do Android, que mostra o contato <strong>antes</strong> de você salvar. O S-Card não
     lê a sua agenda.</li>
@@ -121,18 +143,21 @@
     os cartões recebidos — e diz isso antes.</li>
     <li>No S-Card Pro, a <strong>carteira em planilha</strong> (CSV), entregue à folha de
     compartilhamento do Android.</li>
+    <li>Um <strong>widget</strong> que você ponha na tela inicial mostra ali o seu QR ou os cartões
+    recebidos da semana — quem vê a sua tela inicial vê isso, e tirar o widget desfaz.</li>
   </ul>
 
   <p><strong>Abrir um site, o WhatsApp ou uma rede social não é o S-Card usando a internet.</strong>
   Quando você toca em “WhatsApp” ou “Site” num cartão, o S-Card pede ao Android que abra
   <strong>outro aplicativo</strong> — o WhatsApp, o navegador —, e é esse outro aplicativo que usa a
-  rede, com a política de privacidade dele.</p>
+  rede, com a política de privacidade dele. O mesmo vale para o cartão de um aplicativo na tela
+  <em>Outros aplicativos</em>: o toque abre a ficha dele na <strong>Google Play</strong>.</p>
 
-  <p><strong>E o que entra:</strong> ler o QR de alguém <strong>mostra</strong> o cartão antes de
-  guardar, e <strong>nada abre sozinho</strong>. Um QR que não é um cartão — de um site, de um
-  cardápio, de um pagamento — é mostrado como endereço, e só se abre se você tocar. Quando você
-  restaura uma cópia ou escolhe uma foto, o app lê só o arquivo que você escolheu no seletor do
-  sistema.</p>
+  <p><strong>E o que entra:</strong> ler o QR de alguém, receber um cartão por aproximação ou abrir um
+  link de cartão <strong>mostra</strong> o cartão antes de guardar, e <strong>nada abre sozinho</strong>.
+  Um QR que não é um cartão — de um site, de um cardápio, de um pagamento — é mostrado como endereço, e
+  só se abre se você tocar. Quando você restaura uma cópia ou escolhe uma foto, o app lê só o arquivo
+  que você escolheu no seletor do sistema.</p>
 
   <h3>A câmera</h3>
 
@@ -148,19 +173,16 @@
   guarda dado de cartão de crédito, nome ou endereço de cobrança.</p>
 
   <p>Para saber se você tem o Pro, o app <strong>pergunta à Google Play que já está no seu
-  aparelho</strong> — uma conversa entre dois aplicativos, sem internet do lado do S-Card. O que a
-  Google Play faz com os dados da compra está na
+  aparelho</strong> — uma conversa entre dois aplicativos, e não uma conexão nossa com a internet. O
+  que a Google Play faz com os dados da compra está na
   <a href="https://policies.google.com/privacy">política de privacidade do Google</a>.</p>
-
-  <p>As bibliotecas do Google usadas pelo app trazem junto um componente que <strong>tentaria enviar
-  registros de uso da própria biblioteca</strong> ao Google. Esse componente é removido do aplicativo e,
-  como o app não tem permissão de internet, <strong>esse envio não acontece</strong>.</p>
 
   <p><strong>E o que não existe, e não passou despercebido:</strong></p>
 
   <ul>
     <li><strong>Não há análise de uso, telemetria nem relatório de falhas.</strong></li>
-    <li><strong>Não há publicidade</strong> e nenhuma biblioteca de anúncios.</li>
+    <li><strong>Não há publicidade</strong> e nenhuma biblioteca de anúncios; o aplicativo
+    <strong>não usa identificador de publicidade</strong>.</li>
     <li><strong>Não há conta, login nem senha.</strong></li>
     <li><strong>A cópia automática para a nuvem do Android está desligada</strong>
     (<code>allowBackup="false"</code>), junto com a transferência para um aparelho novo, para que a sua
@@ -172,10 +194,11 @@
 
   <p><strong>Com ninguém.</strong> Não vendemos, não alugamos e não compartilhamos dados seus nem dos
   cartões que você recebe — não há dados nossos sobre você para compartilhar. Não há servidor nosso,
-  não há parceiro, não há anunciante e não há serviço de análise.</p>
+  não há parceiro com acesso, não há anunciante e não há serviço de análise.</p>
 
-  <p>O único componente externo é a <strong>Google Play</strong>, que distribui o aplicativo e
-  processa a compra do S-Card Pro.</p>
+  <p>O único componente externo é a <strong>Google Play</strong>, que distribui o aplicativo, processa
+  a compra do S-Card Pro e hospeda as páginas públicas que a tela <em>Outros aplicativos</em>
+  <strong>lê</strong>.</p>
 
   <h2>Permissões que o app pede, e para quê</h2>
 
@@ -183,16 +206,19 @@
     <tr><th>Permissão</th><th>Para quê</th></tr>
     <tr><td><strong>Câmera</strong></td><td>Ler o QR de um cartão. Pedida quando você abre o leitor;
     você pode negar e ler a partir de uma imagem.</td></tr>
+    <tr><td><strong>Internet</strong></td><td><strong>Só</strong> para a tela <em>Outros
+    aplicativos</em> ler as páginas públicas da Google Play e baixar os ícones. Nada seu é
+    enviado.</td></tr>
+    <tr><td><strong>NFC</strong></td><td>Entregar e receber um cartão encostando dois aparelhos, na
+    tela <em>Encostar</em>.</td></tr>
     <tr><td><strong>Serviço de compras da Google Play</strong></td><td>Comprar e conferir o S-Card Pro
-    com a Google Play do aparelho.</td></tr>
-    <tr><td><strong>Verificação de licença da Google Play</strong></td><td>Acrescentada pela própria
-    Google Play, para conferir que o aplicativo instalado é o original.</td></tr>
+    com a Google Play do aparelho. Aparece nos detalhes do aplicativo como <em>compras no
+    aplicativo</em>.</td></tr>
   </table>
 
-  <p><strong>Nenhuma outra.</strong> O S-Card não pede permissão de internet, de localização, de
-  microfone, de contatos nem de armazenamento. Quando você escolhe uma foto ou restaura uma cópia, quem
-  abre o seletor é o <strong>sistema</strong>, e o app recebe apenas o arquivo que
-  <strong>você</strong> escolheu.</p>
+  <p><strong>Nenhuma outra.</strong> O S-Card não pede localização, microfone, contatos nem
+  armazenamento. Quando você escolhe uma foto ou restaura uma cópia, quem abre o seletor é o
+  <strong>sistema</strong>, e o app recebe apenas o arquivo que <strong>você</strong> escolheu.</p>
 
   <h2>Por quanto tempo os dados ficam</h2>
 
@@ -220,7 +246,7 @@
   <table>
     <tr><th>Direito</th><th>Como exercer</th></tr>
     <tr><td>Acesso</td><td>Abrir o app. É tudo o que existe.</td></tr>
-    <tr><td>Correção</td><td>O seu cartão, cada cartão recebido, cada nota e cada etiqueta abrem,
+    <tr><td>Correção</td><td>O seu cartão, cada cartão recebido, cada nota e cada categoria abrem,
     editam e apagam dentro do próprio app.</td></tr>
     <tr><td>Eliminação</td><td>Apagar item a item dentro do app, limpar os dados nos ajustes do
     Android, ou desinstalar — e apagar as cópias de segurança que você tiver guardado.</td></tr>
@@ -240,9 +266,9 @@
 
   <h2>Mudanças nesta política</h2>
 
-  <p>Se o S-Card passar a guardar ou a enviar algo diferente — por exemplo, trocar o cartão por
-  aproximação ou por um link —, esta página muda <strong>antes</strong> da versão que fizer isso
-  chegar à loja, e a data no topo é atualizada.</p>
+  <p>Se o S-Card passar a guardar ou a enviar algo diferente, esta página muda <strong>antes</strong>
+  da versão que fizer isso chegar à loja, e a data no topo é atualizada. Foi assim quando a permissão
+  de internet entrou, em setembro de 2026, para a tela <em>Outros aplicativos</em>.</p>
 
   <footer>
     <p>O S-Card é um cartão de visitas digital pessoal, para Android. Ele não consulta base de dados
