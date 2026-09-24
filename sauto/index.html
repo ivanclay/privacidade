@@ -11,7 +11,7 @@
 <main>
 
   <h1>Política de privacidade — S-Auto</h1>
-  <p class="subtitulo">Versão 0.26.0 · atualizada em 17 de setembro de 2026</p>
+  <p class="subtitulo">Versão 0.36 · atualizada em 24 de setembro de 2026</p>
 
   <div class="destaque">
     <p><strong>O S-Auto não tem conta, não tem servidor e não tem telemetria.</strong> Os veículos,
@@ -78,9 +78,47 @@
       <td>Para o histórico do veículo e para o aviso de vencimento da apólice.</td>
     </tr>
     <tr>
-      <td><strong>Os documentos que você guardar</strong> — o arquivo (PDF ou foto) que você escolher,
-      como o CRLV, a apólice, o contrato ou a nota de uma revisão, com o nome, a categoria e a data de
-      vencimento que você der</td>
+      <td><strong>Os contatos da seguradora</strong> — os telefones da assistência 24h e do sinistro, o
+      WhatsApp e o site que você digitar</td>
+      <td>Para ter à mão com quem falar quando o carro bate, na tela do seguro e no widget de
+      emergência.</td>
+    </tr>
+    <tr>
+      <td><strong>As multas</strong> — a data, o valor, os pontos, o vencimento do boleto e se ela foi
+      paga, está em recurso ou foi cancelada</td>
+      <td>Para o aviso de vencimento e para a soma dos pontos registrados neste aparelho.</td>
+    </tr>
+    <tr>
+      <td><strong>O consórcio</strong>, quando você tiver um — as parcelas pagas, os reajustes que você
+      declarar e a contemplação</td>
+      <td>Para o app contar o que já foi pago e somar o pagamento ao gasto do veículo.</td>
+    </tr>
+    <tr>
+      <td><strong>Os condutores</strong> — só o nome de quem dirige, e quem abasteceu ou lançou cada
+      gasto, quando você marcar</td>
+      <td>Para mostrar a distância e o gasto de cada pessoa.</td>
+    </tr>
+    <tr>
+      <td><strong>Os locais</strong> — o nome, o tipo (posto, oficina…), o endereço e, se você pedir, a
+      posição</td>
+      <td>Para sugerir o posto e a oficina nos formulários e abrir o local no mapa. A posição tem uma
+      seção própria logo abaixo.</td>
+    </tr>
+    <tr>
+      <td><strong>O estacionamento</strong> — a hora de entrada e de saída de cada uso, quando você
+      digitar</td>
+      <td>Para o custo por hora e por uso.</td>
+    </tr>
+    <tr>
+      <td><strong>O checklist de viagem</strong> — os itens que você escrever e quais estão
+      marcados</td>
+      <td>Para conferir o veículo antes de sair.</td>
+    </tr>
+    <tr>
+      <td><strong>Os documentos e as fotos que você guardar</strong> — o arquivo (PDF ou foto) que você
+      escolher ou fotografar, como o CRLV, a CNH, a apólice, o contrato, o auto de uma multa, a nota de
+      uma revisão ou as fotos de um sinistro, com o nome, a categoria e a data de vencimento que você
+      der</td>
       <td>Para ter os papéis do veículo à mão e saber quando vencem. <strong>O arquivo fica
       criptografado</strong> (AES-GCM), com uma chave que o Android guarda no próprio aparelho e que
       não sai dele; nem uma cópia do arquivo em outro lugar abre sem ela.</td>
@@ -110,6 +148,26 @@
   e a tela que gera um arquivo para outra pessoa <strong>diz que eles vão dentro</strong>, com essas
   palavras, <em>antes</em> de você confirmar.</p>
 
+  <p><strong>Os widgets</strong> que você puser na tela inicial mostram o que o app já tem — o gasto do
+  mês, a próxima parcela, o próximo alerta, os botões de contato da seguradora. Eles são desenhados
+  pelo Android <strong>no seu aparelho</strong>, com os dados do banco local, e ficam visíveis para
+  quem olhar a sua tela inicial.</p>
+
+  <h3>Sobre a localização</h3>
+
+  <p>O S-Auto pede a permissão de localização <strong>apenas quando você toca em “Usar a posição
+  daqui”</strong>, ao cadastrar um local — um posto, uma oficina. A posição é lida <strong>naquele
+  momento</strong>, para ficar guardada com aquele local, <strong>no seu aparelho</strong>.</p>
+
+  <ul>
+    <li>O aplicativo <strong>não acompanha</strong> a sua localização, nem em segundo plano: ele não
+    tem a permissão para isso.</li>
+    <li>A posição <strong>não é enviada</strong> para nós nem para ninguém, e ela não é usada para
+    adivinhar onde você abasteceu.</li>
+    <li>Você pode recusar a permissão: o local continua podendo ser cadastrado, com o nome e o
+    endereço que você digitar.</li>
+  </ul>
+
   <p><strong>Os documentos guardados são ainda mais sensíveis</strong> — um CRLV traz placa, RENAVAM e
   o nome do proprietário. Por isso o arquivo é criptografado, o nome dele não vai para registro de
   diagnóstico, e ao abri-lo o app mostra o conteúdo <strong>dentro dele mesmo</strong>, sem entregá-lo
@@ -134,8 +192,17 @@
     <li>a <strong>cópia de segurança</strong> dos seus dados — gravada em <strong>Downloads ›
     S-Auto</strong>, no próprio aparelho, ou, no S-Auto Pro, na pasta que você apontar no seletor do
     sistema (um cartão, o Google Drive, o OneDrive… o app não tem a sua conta e não guarda senha);</li>
-    <li>as <strong>exportações em CSV e PDF</strong>, inclusive o histórico do veículo para revenda,
-    entregues à folha de compartilhamento do Android;</li>
+    <li>as <strong>exportações em CSV e PDF</strong>, inclusive o histórico do veículo para revenda e o
+    relatório de um sinistro com as fotos, entregues à folha de compartilhamento do Android. As fotos
+    vão no relatório <strong>como imagem</strong>, sem os dados internos do arquivo original (o
+    modelo do celular e o instante da foto);</li>
+    <li><strong>Abrir no mapa</strong>: a posição e o nome de um local, entregues ao aplicativo de
+    mapas que você usar;</li>
+    <li>os <strong>contatos da seguradora</strong>: tocar num telefone abre o discador com o número
+    no visor — <strong>quem liga é você</strong> —, e tocar no WhatsApp ou no site entrega o endereço
+    ao aplicativo que o abre;</li>
+    <li><strong>Outros aplicativos</strong>, na tela Sobre: o toque abre a Google Play na página do
+    aplicativo. A lista é montada quando o S-Auto é gerado, e não pela internet do seu aparelho;</li>
     <li>um <strong>documento guardado</strong>, quando você o abre e toca em
     <em>Compartilhar</em>: o arquivo sai <strong>sem a criptografia</strong>, para o aplicativo que você
     escolher, e a tela diz isso antes.</li>
@@ -201,18 +268,23 @@
   <table>
     <tr><th>Permissão</th><th>Para quê</th></tr>
     <tr><td><strong>Notificações</strong></td><td>Avisar do lembrete de revisão, IPVA, licenciamento e
-    seguro. Você pode negar; os lembretes continuam na aba de alertas.</td></tr>
+    seguro, do documento ou da multa que vence, da parcela do consórcio e da cópia de segurança do mês.
+    Você pode negar; os avisos continuam na aba de alertas.</td></tr>
     <tr><td><strong>Executar após a inicialização</strong></td><td>Reagendar os avisos quando o aparelho
     reinicia — sem ela, os lembretes sumiriam no primeiro reinício, calados.</td></tr>
     <tr><td><strong>Serviço de compras da Google Play</strong></td><td>Comprar e conferir o S-Auto Pro
     com a Google Play do aparelho.</td></tr>
     <tr><td><strong>Verificação de licença da Google Play</strong></td><td>Acrescentada pela própria
     Google Play, para conferir que o aplicativo instalado é o original.</td></tr>
+    <tr><td><strong>Localização aproximada e precisa</strong></td><td>Só no toque de <em>“Usar a posição
+    daqui”</em>, ao cadastrar um local — veja “Sobre a localização”. Nunca em segundo plano.</td></tr>
   </table>
 
-  <p><strong>Nenhuma outra.</strong> O S-Auto não pede permissão de internet, de localização, de
-  câmera, de microfone, de contatos nem de armazenamento. Quando você salva uma exportação, escolhe
-  onde guardar a cópia, importa uma planilha ou guarda um documento, quem abre o seletor de arquivos é o
+  <p><strong>Nenhuma outra.</strong> O S-Auto não pede permissão de internet, de localização em
+  segundo plano, de câmera, de microfone, de contatos, de fazer ligações nem de armazenamento. Para
+  fotografar um documento ou um sinistro, o app abre <strong>o aplicativo de câmera do seu
+  aparelho</strong> e recebe só a foto. Quando você salva uma exportação, escolhe onde guardar a cópia,
+  importa uma planilha ou guarda um documento, quem abre o seletor de arquivos é o
   <strong>sistema</strong>, e o app recebe apenas o arquivo que <strong>você</strong> escolheu.</p>
 
   <h2>Por quanto tempo os dados ficam</h2>
@@ -276,7 +348,14 @@
   da versão que fizer isso chegar à loja, e a data no topo é atualizada. Mudanças relevantes também
   são anunciadas nas novidades da versão, dentro do próprio aplicativo.</p>
 
-  <p><em>Nesta versão, 0.26.0:</em> entraram os <strong>documentos do veículo</strong> — arquivos que
+  <p><em>Nesta versão, 0.36:</em> entrou a <strong>permissão de localização</strong>, usada só no
+  toque de <em>“Usar a posição daqui”</em>, para guardar a posição de um local no aparelho; e as saídas
+  por toque <em>Abrir no mapa</em>, os contatos da seguradora e <em>Outros aplicativos</em>. A lista
+  do que fica no aparelho ganhou os locais, as multas, o consórcio, os condutores, o estacionamento, o
+  checklist e as fotos do sinistro, que entraram desde a 0.26.0. Continua sem permissão de
+  internet.</p>
+
+  <p><em>Na versão 0.26.0:</em> entraram os <strong>documentos do veículo</strong> — arquivos que
   você escolhe, guardados criptografados no aparelho, fora da cópia de segurança, e que só saem pelo
   <em>Compartilhar</em>. Nenhuma permissão nova.</p>
 
