@@ -10,6 +10,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | Caderno | `https://ivanclay.github.io/privacidade/caderno/` |
 | S-Auto | `https://ivanclay.github.io/privacidade/sauto/` |
 | S-Card | `https://ivanclay.github.io/privacidade/scard/` |
+| S-Checker | `https://ivanclay.github.io/privacidade/schecker/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
 
@@ -92,6 +93,16 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 - [ ] **S-Card: a página guarda dado de terceiros** (os cartões recebidos). Cada saída nova que os
       leve — link, aproximação, planilha — muda a seção "Os cartões recebidos são dados de outras
       pessoas" antes da versão.
+
+- [ ] **S-Checker: a página é prévia** (2026-09-28, antes da F7). Conferida contra o manifesto
+      mesclado da compilação de depuração; **tem de ser conferida de novo frase a frase contra o
+      manifesto do `.aab`** antes do primeiro envio. A tabela "promessa → o que a sustenta" fica no
+      repositório do app, em `docs/loja/politica-de-privacidade.md`.
+- [ ] **S-Checker: apontar o Play Console para `.../privacidade/schecker/`** no primeiro envio. O
+      link dentro do app (Ajustes › Sobre) já é esse endereço.
+- [ ] **S-Checker: a página guarda dado de terceiros** (participantes dos bolões e membros dos
+      grupos, e as fotos dos comprovantes, que valem dinheiro). Cada saída nova que os leve muda a
+      página antes da versão.
 
 ## Manutenção
 
