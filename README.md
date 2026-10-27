@@ -11,6 +11,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | S-Auto | `https://ivanclay.github.io/privacidade/sauto/` |
 | S-Card | `https://ivanclay.github.io/privacidade/scard/` |
 | S-Checker | `https://ivanclay.github.io/privacidade/schecker/` |
+| S-Orça | `https://ivanclay.github.io/privacidade/sorca/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
 
@@ -102,6 +103,20 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
       link dentro do app (Ajustes › Sobre) já é esse endereço.
 - [ ] **S-Checker: a página guarda dado de terceiros** (participantes dos bolões e membros dos
       grupos, e as fotos dos comprovantes, que valem dinheiro). Cada saída nova que os leve muda a
+      página antes da versão.
+
+- [ ] **S-Orça: a página é prévia** (2026-10-26, antes da fundação do app; issue F07.1 em
+      `ivanclay/sorca`, #36). Descreve o app como vai ser publicado — sem conta, clientes como dado de
+      terceiros, PDF e WhatsApp só por comando, cópia de segurança cifrada com senha, S-Orça Pro pela
+      Google Play — e **tem de ser conferida frase a frase contra o manifesto mesclado do `.aab`** antes
+      do primeiro envio. A tabela "promessa → o que a sustenta" fica no repositório do app, em
+      `docs/loja/politica-de-privacidade.md`.
+- [ ] **S-Orça: duas decisões abertas mudam frases daqui.** A permissão `INTERNET` (L-17, `sorca#40`):
+      a tabela de permissões não a lista; se ela ficar para a Billing, entra uma linha. A cópia
+      automática do Android (L-18, `sorca#41`): a frase "não leva os seus clientes nem os seus
+      documentos" vale para as duas opções, mas o texto pode ficar mais preciso.
+- [ ] **S-Orça: apontar o Play Console para `.../privacidade/sorca/`** no primeiro envio.
+- [ ] **S-Orça: a página guarda dado de terceiros** (os clientes). Cada saída nova que os leve muda a
       página antes da versão.
 
 ## Manutenção
