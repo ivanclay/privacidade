@@ -105,16 +105,12 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
       grupos, e as fotos dos comprovantes, que valem dinheiro). Cada saída nova que os leve muda a
       página antes da versão.
 
-- [ ] **S-Orça: a página é prévia** (2026-10-26, antes da fundação do app; issue F07.1 em
-      `ivanclay/sorca`, #36). Descreve o app como vai ser publicado — sem conta, clientes como dado de
-      terceiros, PDF e WhatsApp só por comando, cópia de segurança cifrada com senha, S-Orça Pro pela
-      Google Play — e **tem de ser conferida frase a frase contra o manifesto mesclado do `.aab`** antes
-      do primeiro envio. A tabela "promessa → o que a sustenta" fica no repositório do app, em
-      `docs/loja/politica-de-privacidade.md`.
-- [ ] **S-Orça: duas decisões abertas mudam frases daqui.** A permissão `INTERNET` (L-17, `sorca#40`):
-      a tabela de permissões não a lista; se ela ficar para a Billing, entra uma linha. A cópia
-      automática do Android (L-18, `sorca#41`): a frase "não leva os seus clientes nem os seus
-      documentos" vale para as duas opções, mas o texto pode ficar mais preciso.
+- [x] **S-Orça: a página conferida contra o `.aab` 0.13.0 (1)** (2026-10-29, `sorca#290`): permissões
+      mescladas Câmera, Internet, Vibração e compras da Play, mais a verificação de licença que a proteção
+      automática acrescenta; sem `AD_ID`; `allowBackup="false"`. A tabela "promessa → o que a sustenta"
+      fica no repositório do app, em `docs/loja/politica-de-privacidade.md`.
+- [x] **S-Orça: as duas decisões abertas** viraram texto: a `INTERNET` só para Outros aplicativos (L-40) e
+      a cópia automática desligada (L-18).
 - [ ] **S-Orça: apontar o Play Console para `.../privacidade/sorca/`** no primeiro envio.
 - [ ] **S-Orça: a página guarda dado de terceiros** (os clientes). Cada saída nova que os leve muda a
       página antes da versão.
