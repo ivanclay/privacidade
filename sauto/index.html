@@ -4,24 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Política de privacidade — S-Auto</title>
-<meta name="description" content="Política de privacidade do aplicativo S-Auto. Sem conta, sem servidor e sem permissão de internet: a vida do seu veículo fica no seu aparelho.">
+<meta name="description" content="Política de privacidade do aplicativo S-Auto. Sem conta, sem servidor e sem telemetria: a vida do seu veículo fica no seu aparelho.">
 <link rel="stylesheet" href="../estilo.css">
 </head>
 <body>
 <main>
 
   <h1>Política de privacidade — S-Auto</h1>
-  <p class="subtitulo">Versão 0.36 · atualizada em 24 de setembro de 2026</p>
+  <p class="subtitulo">Versão 0.36 · atualizada em 30 de outubro de 2026</p>
 
   <div class="destaque">
     <p><strong>O S-Auto não tem conta, não tem servidor e não tem telemetria.</strong> Os veículos,
     os abastecimentos, os gastos, a manutenção, o seguro, os lembretes e o financiamento ficam num
     banco de dados dentro do seu aparelho. Não há cadastro para fazer e não há nada nosso do outro
     lado.</p>
-    <p><strong>O aplicativo não declara a permissão de internet.</strong> Sem ela, o Android não deixa
-    o aplicativo abrir uma conexão de rede, nem que ele queira. É a diferença entre <em>“nós não
-    enviamos”</em> e <em>“ele não consegue enviar”</em>. O que sai do aparelho sai porque
-    <strong>você</strong> mandou — e está listado abaixo.</p>
+    <p><strong>O aplicativo usa a internet para uma coisa só:</strong> a tela <em>Outros
+    aplicativos</em> lê páginas públicas da Google Play. Nenhum dado seu sai por ela. O que sai do
+    aparelho sai porque <strong>você</strong> mandou — e está listado abaixo.</p>
   </div>
 
   <h2>Quem é o responsável</h2>
@@ -176,13 +175,14 @@
   <h2>O que sai do aparelho</h2>
 
   <div class="destaque">
-    <p><strong>Por conta própria, nada.</strong> O aplicativo não declara a permissão
-    <code>INTERNET</code> no manifesto do Android — nem a que as bibliotecas do Google trariam
-    junto, que foi <strong>removida de propósito</strong>. O sistema operacional recusa qualquer
-    tentativa de abrir uma conexão, e por isso a garantia não depende da nossa disciplina, nem de você
-    acreditar em nós.</p>
-    <p>Você pode conferir: nos <strong>detalhes do aplicativo</strong>, em Ajustes do Android, a
-    lista de permissões do S-Auto <strong>não tem internet</strong>.</p>
+    <p><strong>Nenhum dado seu, por conta própria.</strong> O aplicativo declara a permissão
+    <code>INTERNET</code> para uma tela só: ao abrir <em>Outros aplicativos</em>, ele lê as páginas
+    públicas da Google Play com a lista de aplicativos do autor e de parceiros, e os ícones deles.
+    É só leitura: sem conta, sem cookie e sem identificador. Sai o que qualquer navegador manda ao
+    abrir uma página pública, e a Google Play vê o endereço de rede do aparelho, como em qualquer
+    visita.</p>
+    <p>Nada disso acontece se você não abrir a tela, e o resto do aplicativo funciona sem conexão.
+    Sem resposta, a tela mostra a última lista guardada e diz de quando ela é.</p>
   </div>
 
   <p><strong>O que sai, sai porque você mandou.</strong> Nesses casos o app entrega um arquivo ao
@@ -201,8 +201,8 @@
     <li>os <strong>contatos da seguradora</strong>: tocar num telefone abre o discador com o número
     no visor — <strong>quem liga é você</strong> —, e tocar no WhatsApp ou no site entrega o endereço
     ao aplicativo que o abre;</li>
-    <li><strong>Outros aplicativos</strong>, na tela Sobre: o toque abre a Google Play na página do
-    aplicativo. A lista é montada quando o S-Auto é gerado, e não pela internet do seu aparelho;</li>
+    <li><strong>Outros aplicativos</strong>, na tela Sobre: o toque num cartão abre a Google Play na
+    página do aplicativo;</li>
     <li>um <strong>documento guardado</strong>, quando você o abre e toca em
     <em>Compartilhar</em>: o arquivo sai <strong>sem a criptografia</strong>, para o aplicativo que você
     escolher, e a tela diz isso antes.</li>
@@ -229,15 +229,14 @@
   guarda dado de cartão, nome ou endereço de cobrança.</p>
 
   <p>Para saber se você tem o Pro, o app <strong>pergunta à Google Play que já está no seu
-  aparelho</strong> — uma conversa entre dois aplicativos, sem internet do lado do S-Auto. A Google
+  aparelho</strong> — uma conversa entre dois aplicativos, e não uma conexão do S-Auto com a internet. A Google
   Play responde se esta conta comprou ou assina, e o app confere a assinatura digital da resposta.
   O que a Google Play faz com os dados da compra está na
   <a href="https://policies.google.com/privacy">política de privacidade do Google</a>.</p>
 
-  <p>A biblioteca de compras do Google traz junto um componente que <strong>tentaria enviar registros
-  de uso da própria biblioteca</strong> ao Google. Como o app não tem permissão de internet,
-  <strong>esse envio não acontece</strong>; o componente pode guardar esses registros num arquivo
-  interno do app, que não sai do aparelho e é apagado ao desinstalar.</p>
+  <p>A biblioteca de compras do Google traz junto um componente que <strong>enviaria registros de uso
+  da própria biblioteca</strong> ao Google. Ele foi <strong>retirado do aplicativo de propósito</strong>,
+  e por isso <strong>esse envio não acontece</strong>.</p>
 
   <p><strong>E o que não existe, e não passou despercebido:</strong></p>
 
@@ -276,11 +275,17 @@
     com a Google Play do aparelho.</td></tr>
     <tr><td><strong>Verificação de licença da Google Play</strong></td><td>Acrescentada pela própria
     Google Play, para conferir que o aplicativo instalado é o original.</td></tr>
+    <tr><td><strong>Internet</strong></td><td><strong>Só</strong> para a tela <em>Outros
+    aplicativos</em> ler páginas públicas da Google Play — veja “O que sai do aparelho”.</td></tr>
+    <tr><td><strong>Vibração</strong></td><td>Só se você ligar a vibração por tipo de confirmação, na
+    área Acessibilidade.</td></tr>
     <tr><td><strong>Localização aproximada e precisa</strong></td><td>Só no toque de <em>“Usar a posição
     daqui”</em>, ao cadastrar um local — veja “Sobre a localização”. Nunca em segundo plano.</td></tr>
   </table>
 
-  <p><strong>Nenhuma outra.</strong> O S-Auto não pede permissão de internet, de localização em
+  <p><strong>Nenhuma outra.</strong> Se você ligar a leitura em voz alta, em Acessibilidade, o S-Auto
+  fala só frases fixas, sem valores nem placa, e usa apenas uma voz instalada no aparelho, nunca uma
+  voz pela internet. O S-Auto não pede permissão de localização em
   segundo plano, de câmera, de microfone, de contatos, de fazer ligações nem de armazenamento. Para
   fotografar um documento ou um sinistro, o app abre <strong>o aplicativo de câmera do seu
   aparelho</strong> e recebe só a foto. Quando você salva uma exportação, escolhe onde guardar a cópia,
