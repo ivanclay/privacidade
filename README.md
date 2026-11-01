@@ -11,6 +11,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | S-Auto | `https://ivanclay.github.io/privacidade/sauto/` |
 | S-Card | `https://ivanclay.github.io/privacidade/scard/` |
 | S-Checker | `https://ivanclay.github.io/privacidade/schecker/` |
+| S-Cobrança | `https://ivanclay.github.io/privacidade/scobranca/` |
 | S-Orça | `https://ivanclay.github.io/privacidade/sorca/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
@@ -114,6 +115,14 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 - [ ] **S-Orça: apontar o Play Console para `.../privacidade/sorca/`** no primeiro envio.
 - [ ] **S-Orça: a página guarda dado de terceiros** (os clientes). Cada saída nova que os leve muda a
       página antes da versão.
+
+- [ ] **S-Cobrança: apontar o Play Console para `.../privacidade/scobranca/`** no primeiro envio. O link
+      dentro do app (Ajustes › Sobre) já é esse endereço.
+- [ ] **S-Cobrança: conferir a página frase a frase contra o manifesto do `.aab` final.** O APK de
+      2026-11-01 pede Internet, compras da Play, vibração e biometria; sem `AD_ID`;
+      `allowBackup="false"`.
+- [ ] **S-Cobrança: a página guarda dado de terceiros** (clientes e fiado). Cada saída nova que os leve
+      muda a página antes da versão.
 
 ## Manutenção
 
