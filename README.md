@@ -13,6 +13,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | S-Checker | `https://ivanclay.github.io/privacidade/schecker/` |
 | S-Cobrança | `https://ivanclay.github.io/privacidade/scobranca/` |
 | S-Orça | `https://ivanclay.github.io/privacidade/sorca/` |
+| S-Anotei | `https://ivanclay.github.io/privacidade/sanotei/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
 
@@ -123,6 +124,15 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
       `allowBackup="false"`.
 - [ ] **S-Cobrança: a página guarda dado de terceiros** (clientes e fiado). Cada saída nova que os leve
       muda a página antes da versão.
+
+- [ ] **S-Anotei: a página é prévia** (2026-11-18, app em teste). Conferida contra o manifesto do
+      repositório do app (`INTERNET`, `RECORD_AUDIO`, `VIBRATE`; Auto Backup com regras), não contra o
+      `.aab`; **tem de ser conferida frase a frase contra o manifesto do `.aab`** antes do primeiro
+      envio. O widget e o bloco das Configurações Rápidas ainda não estão no código: a página os trata
+      como chegando.
+- [ ] **S-Anotei: apontar o Play Console para `.../privacidade/sanotei/`** no primeiro envio.
+- [ ] **S-Anotei: a página guarda dado de terceiros** (o texto dos tópicos). Cada saída nova que o leve
+      (e a compra "S-Anotei completo", quando existir) muda a página antes da versão.
 
 ## Manutenção
 
