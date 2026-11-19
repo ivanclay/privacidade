@@ -11,13 +11,10 @@
 <main>
 
   <h1>Política de privacidade — S-Anotei</h1>
-  <p class="subtitulo">Atualizada em 18 de novembro de 2026</p>
+  <p class="subtitulo">Atualizada em 19 de novembro de 2026</p>
 
-  <p><em>O S-Anotei está em teste e ainda não foi publicado para todos. Esta página descreve o aplicativo
-  como ele é hoje, e muda <strong>antes</strong> de qualquer versão que faça algo diferente chegar à
-  loja. O widget da tela inicial e o bloco das Configurações Rápidas, descritos abaixo, aparecem a
-  partir da versão em teste que os traz. A compra única do “S-Anotei completo” ainda não existe no
-  aplicativo; quando existir, esta página muda antes.</em></p>
+  <p><em>Esta página descreve o aplicativo como ele é hoje, e muda <strong>antes</strong> de qualquer versão
+  que faça algo diferente chegar à loja.</em></p>
 
   <div class="destaque">
     <p><strong>O S-Anotei não tem conta, não tem servidor, não tem anúncio e não tem telemetria.</strong>
@@ -182,17 +179,34 @@
     trancado.</li>
   </ul>
 
-  <p>Esses dois itens aparecem a partir da versão em teste que os traz, e não mudam o que está dito
-  acima: nada sai do aparelho por causa deles.</p>
+  <p>Esses dois itens não mudam o que está dito acima: nada sai do aparelho por causa deles.</p>
 
   <p><strong>E o que não existe:</strong></p>
 
   <ul>
-    <li><strong>Não há análise de uso, telemetria nem relatório de falhas.</strong></li>
+    <li><strong>Não há análise de uso, telemetria nem relatório de falhas.</strong> A biblioteca de compras da
+    Google Play traz junto um componente do Google para registrar eventos; o S-Anotei retira do aplicativo o
+    serviço pelo qual ele enviaria algo.</li>
     <li><strong>Não há publicidade</strong> e nenhuma biblioteca de anúncios; o aplicativo
     <strong>não usa identificador de publicidade</strong>.</li>
     <li><strong>Não há conta, login nem senha.</strong></li>
   </ul>
+
+  <h2>Compras</h2>
+
+  <div class="destaque">
+    <p>O S-Anotei é grátis até <strong>4 projetos</strong>, contando a Caixa de entrada. Para ter projetos
+    sem limite existe uma <strong>compra única</strong>, o “S-Anotei completo”, que vale para sempre e não
+    é assinatura. Os projetos que você já tem continuam seus, comprando ou não.</p>
+    <p><strong>A compra é feita e processada pela Google Play.</strong> O S-Anotei não vê nem guarda o seu
+    cartão, a sua forma de pagamento, o seu nome ou o seu e-mail. Vale a política de privacidade e os
+    termos da Google Play para o pagamento.</p>
+    <p>Para saber se a compra foi feita, o app pergunta à <strong>Google Play do próprio aparelho</strong>,
+    pelo serviço do Android, ao abrir e ao voltar ao app. Nada passa por servidor nosso, porque não há
+    servidor nosso. O app guarda no aparelho só o último estado da compra (comprado ou não), para
+    funcionar sem internet; esse dado fica <strong>fora do backup</strong> e a Play o confirma de novo
+    quando há conexão. Ao trocar de celular, a compra volta pela sua conta Google em “Restaurar compra”.</p>
+  </div>
 
   <h2>Com quem os dados são compartilhados</h2>
 
@@ -202,7 +216,8 @@
 
   <p>Os componentes externos são o <strong>serviço de voz do Android</strong>, que você usa ao ditar, o
   <strong>Backup do Android</strong>, se estiver ligado, e a <strong>Google Play</strong>, que distribui
-  o aplicativo e hospeda as páginas que a tela <em>Outros aplicativos</em> lê.</p>
+  o aplicativo, processa a compra do “S-Anotei completo” e hospeda as páginas que a tela <em>Outros
+  aplicativos</em> lê.</p>
 
   <h2>Permissões que o app pede, e para quê</h2>
 
@@ -215,6 +230,9 @@
     Play na tela <em>Outros aplicativos</em>. Nada seu é enviado.</td></tr>
     <tr><td><strong>Vibração</strong> (<code>VIBRATE</code>)</td><td>Vibrar ao confirmar uma ação, se
     você deixar a vibração ligada em Acessibilidade. Não é pedida em tela.</td></tr>
+    <tr><td><strong>Compras na Google Play</strong> (<code>com.android.vending.BILLING</code>)</td><td>Falar com
+    a Google Play do aparelho para comprar e confirmar o “S-Anotei completo”. Não é pedida em tela e não
+    dá acesso a nenhum dado seu.</td></tr>
   </table>
 
   <p><strong>Nenhuma outra.</strong> O S-Anotei não pede localização, contatos, câmera, armazenamento
