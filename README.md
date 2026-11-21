@@ -14,6 +14,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | S-Cobrança | `https://ivanclay.github.io/privacidade/scobranca/` |
 | S-Orça | `https://ivanclay.github.io/privacidade/sorca/` |
 | S-Anotei | `https://ivanclay.github.io/privacidade/sanotei/` |
+| S-Stream | `https://ivanclay.github.io/privacidade/sstream/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
 
@@ -133,6 +134,13 @@ resposta da terceira for "nada", a página diz **como isso é garantido**, e nã
 - [ ] **S-Anotei: apontar o Play Console para `.../privacidade/sanotei/`** no primeiro envio.
 - [ ] **S-Anotei: a página guarda dado de terceiros** (o texto dos tópicos). Cada saída nova que o leve
       (e a compra "S-Anotei completo", quando existir) muda a página antes da versão.
+
+- [ ] **S-Stream: a página é prévia** (2026-11-21, F0.7). Conferida contra o manifesto do repositório do app
+      (`INTERNET`, `ACCESS_NETWORK_STATE`, `<queries>` do TTS; `allowBackup="false"`; sem `AD_ID`); **tem de ser
+      conferida frase a frase contra o manifesto do `.aab`** antes do primeiro envio. A internet leva o texto da busca
+      e o número do filme ao TMDB e ao Watchmode, e lê páginas públicas da Google Play em Outros aplicativos.
+- [ ] **S-Stream: apontar o Play Console para `.../privacidade/sstream/`** no primeiro envio. O link dentro do app
+      (Ajustes › Sobre) já é esse endereço.
 
 ## Manutenção
 
