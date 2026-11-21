@@ -14,6 +14,7 @@ Políticas de privacidade dos aplicativos publicados por Ivan Moura, num reposit
 | S-Cobrança | `https://ivanclay.github.io/privacidade/scobranca/` |
 | S-Orça | `https://ivanclay.github.io/privacidade/sorca/` |
 | S-Anotei | `https://ivanclay.github.io/privacidade/sanotei/` |
+| S-Consulta | `https://ivanclay.github.io/privacidade/sconsulta/` |
 | S-Stream | `https://ivanclay.github.io/privacidade/sstream/` |
 | SMarket | `https://ivanclay.github.io/privacidade/smarket/` |
 | SPharmacy | `https://ivanclay.github.io/privacidade/spharmacy/` |
